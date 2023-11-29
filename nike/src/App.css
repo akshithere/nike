@@ -43,6 +43,11 @@ ul{
   font-weight: 800px;
   font-style: bold;
 }
+p{
+  font-size: 24px;
+  font-weight: 400px;
+  font-style: bold;
+}
 #first{
   display: flex;
   justify-content: space-between;
@@ -55,13 +60,24 @@ ul{
   width: 32px;
 }
 .hero-content{
-  margin: auto;
+  margin: 3px 30px;
 }
 .hero-btn button{
   all: unset;
   background-color: crimson;
   color: white;
   padding: 12px 20px;
-  margin: 4px;
+  margin: 3px 30px;
   
+}
+.shopping{
+  margin: 3px 30px;
+}
+.brand-icons{
+  margin: 3px 30px;
+}
+li{
+  font-size: 24px;
+  font-weight: 400px;
+  font-style: bold;
 }
