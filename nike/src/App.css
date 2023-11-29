@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&family=Urbanist&display=swap');
+body{
+/* margin: 4px 6px; */
+font-family: 'Poppins', sans-serif;
+font-family: 'Urbanist', sans-serif;
+}
+#logo{
+  height:  42.75px;
+  width: 76px;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  text-decoration: none;
+  height: 72px;
+  max-width: 1280px;
+  margin: auto;
+  
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  text-decoration: none;
+  gap: 24px;
+}
+.hero-image{
+  height: 500px;
+  width: 450px;
+}
+#button{
+  all: unset;
+  background-color: crimson;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 500;
+  border: none;
+}
+#hero{
+  font-size: 108px;
+  font-weight: 800px;
+  font-style: bold;
+}
+#first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+}
+.brand-icons{
+  display: flex;
+  height: 32px;
+  width: 32px;
+}
+.hero-content{
+  margin: auto;
+}
+.hero-btn button{
+  all: unset;
+  background-color: crimson;
+  color: white;
+  padding: 12px 20px;
+  margin: 4px;
+  
+}
